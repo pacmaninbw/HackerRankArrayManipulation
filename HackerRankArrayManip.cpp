@@ -1,4 +1,3 @@
-//#include <Windows.h>
 #include <PPL.h>
 #include<algorithm>
 #include <chrono>
@@ -122,15 +121,6 @@ constexpr int IDX_LAST_LOCATION = 1;
 constexpr int IDX_VALUE_TO_ADD = 2;
 constexpr int MAX_THREADS = 16;
 
-void printValueVector(std::vector<unsigned long> valueVector)
-{
-    for (auto value : valueVector)
-    {
-        std::cout << value << " ";
-    }
-    std::cout << "\n";
-}
-
 unsigned long mergeAndFindMax(std::vector<unsigned long> maxValues, std::vector<std::vector<unsigned long>> calculatedValues, const size_t executionCount)
 {
     unsigned long maximumValue = 0;
@@ -180,7 +170,6 @@ unsigned long arrayManipulation(const int n, const std::vector<std::vector<int>>
             executionCount++;
         });
 
-    //std::cout << "\n";
     return mergeAndFindMax(maximumValues, calculatedValues, executionCount);
 }
 
@@ -237,4 +226,3 @@ int main()
 
     return executeAndTimeTestCases(testCaseCount, firstTestCase);
 }
-
