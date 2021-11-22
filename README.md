@@ -1,8 +1,6 @@
 # HackerRankArrayManipulation
 Problem Statement
 
-I've been practicing my coding skills because I have an interview coming up. The HackerRank challenge has 16 test cases, the code passes 9 of them and the other 7 time out.
-
 > Starting with a 1-indexed array of zeros and a list of operations, for each operation add a value to each the array element between two given indices, inclusive. Once all operations have been performed, return the maximum value in the array.
 > 
 > **Example**
