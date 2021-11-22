@@ -33,10 +33,10 @@ Problem Statement
 >     int - the maximum value in the resultant array
 > 
 > **Constraints**  
->     - 3 < n < 10^7  
->     - 1 < m < 2 * 10^5  
->     - 1 < a < b < n  
->     - 0 < k < 10^9
+>     3 < n < 10^7  
+>     1 < m < 2 * 10^5  
+>     1 < a < b < n  
+>     0 < k < 10^9
 > 
 > **Sample Input**  
 > 5 3  
